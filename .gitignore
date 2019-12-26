@@ -2,3 +2,6 @@
 /.idea/
 /dates/dates.iml
 /testingexamplesjunit5.iml
+/extensions/target/
+/extensions/dates.iml
+/extensions/extensions.iml
