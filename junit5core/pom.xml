@@ -20,15 +20,14 @@
         <version>1.0</version>
     </parent>
 
-    <artifactId>dates</artifactId>
+    <artifactId>junit5core</artifactId>
     <packaging>jar</packaging>
     <version>1.0</version>
 
-    <name>dates</name>
+    <name>junit5core</name>
     <properties>
         <java.version>1.8</java.version>
     </properties>
-
     <dependencies>
         <dependency>
             <groupId>org.hamcrest</groupId>

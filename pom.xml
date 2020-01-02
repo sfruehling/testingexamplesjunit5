@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>de.andrena</groupId>
-    <artifactId>testingexamples</artifactId>
+    <artifactId>testingexamplesjunit5</artifactId>
     <packaging>pom</packaging>
     <version>1.0</version>
 
@@ -13,7 +13,7 @@
 
     <modules>
         <module>dates</module>
-        <module>extensions</module>
+        <module>junit5core</module>
     </modules>
 
     <dependencies>
