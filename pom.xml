@@ -16,8 +16,7 @@
     <modules>
         <module>dates</module>
         <module>junit5core</module>
-        <!-- <module>springtests</module> -->
-        <module>springtests2</module>
+        <module>springtests</module>
     </modules>
 
     <dependencies>

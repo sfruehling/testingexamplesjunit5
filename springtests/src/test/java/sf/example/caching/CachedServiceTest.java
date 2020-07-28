@@ -12,6 +12,7 @@ import org.springframework.context.annotation.Bean;
 
 import java.util.concurrent.TimeUnit;
 
+import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 
@@ -66,6 +67,15 @@ public class CachedServiceTest {
 
         cachedService.calculateNumber("1");
         verify(slowAPIspy, times(1)).calculate("1");
+    }
+
+    @Test
+    void willReturnSameObjectOnCache() throws InterruptedException {
+        Integer returnValue1 = cachedService.calculateNumber("1");
+        Integer returnValue2 = cachedService.calculateNumber("1");
+        verify(slowAPIspy, times(1)).calculate("1");
+
+        assertThat(returnValue1).isEqualTo(returnValue2);
     }
 
     @Test

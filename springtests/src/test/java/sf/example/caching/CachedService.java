@@ -12,8 +12,8 @@ public class CachedService {
     }
 
     @Cacheable(CACHE_NAME_SLOW_API)
-    public int calculateNumber(String isbn) {
-        return slowApi.calculate(isbn);
+    public Integer calculateNumber(String isbn) {
+        return new Integer(slowApi.calculate(isbn));
     }
 
     @CacheEvict(CACHE_NAME_SLOW_API)
