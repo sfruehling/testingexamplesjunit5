@@ -17,6 +17,7 @@
         <module>dates</module>
         <module>junit5core</module>
         <module>springtests</module>
+        <module>springsecurity</module>
     </modules>
 
     <dependencies>
