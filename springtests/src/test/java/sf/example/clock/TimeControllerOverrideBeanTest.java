@@ -8,7 +8,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.test.context.TestPropertySource;
 import org.springframework.test.web.servlet.MockMvc;
 
-import java.sql.Time;
 import java.time.Clock;
 import java.time.LocalDateTime;
 import java.time.ZoneOffset;

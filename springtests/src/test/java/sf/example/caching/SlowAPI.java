@@ -1,9 +1,9 @@
 package sf.example.caching;
 
 public class SlowAPI {
-    public int calculate(String isbn) {
+    public String calculate(String isbn) {
         simulateSlowService();
-        return 42;
+        return "String"+isbn;
     }
 
     private void simulateSlowService() {

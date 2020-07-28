@@ -70,9 +70,9 @@ public class CachedServiceTest {
     }
 
     @Test
-    void willReturnSameObjectOnCache() throws InterruptedException {
-        Integer returnValue1 = cachedService.calculateNumber("1");
-        Integer returnValue2 = cachedService.calculateNumber("1");
+    void willReturnSameObjectOnCache() {
+        String returnValue1 = cachedService.calculateNumber("1");
+        String returnValue2 = cachedService.calculateNumber("1");
         verify(slowAPIspy, times(1)).calculate("1");
 
         assertThat(returnValue1).isEqualTo(returnValue2);

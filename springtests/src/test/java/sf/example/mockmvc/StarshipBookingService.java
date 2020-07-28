@@ -7,7 +7,8 @@ import java.util.List;
 @Service
 public class StarshipBookingService {
 
-    public List<Starship> findBookableStarships(int minimalPassengerCapacity) {
+    @SuppressWarnings("unused")
+    public List<Starship> findBookableStarships(int capacity) {
         return null;
     }
 

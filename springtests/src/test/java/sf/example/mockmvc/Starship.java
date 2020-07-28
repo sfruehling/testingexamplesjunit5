@@ -1,5 +1,6 @@
 package sf.example.mockmvc;
 
+@SuppressWarnings("unused")
 public class Starship {
 
 	private String name;
