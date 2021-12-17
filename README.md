@@ -2,4 +2,4 @@
 
 Beispiele stammen unter anderem von:
 * https://github.com/mvitz
-* SpringBoot Advanced Testing ( David Burghard) 
+* SpringBoot Advanced Testing (David Burkhart, Florian Ulrich) 
